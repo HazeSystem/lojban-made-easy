@@ -382,6 +382,35 @@ le ladru
 <td><i>I eat apples.</i>
 </td></tr></tbody></table>
 
+### What are _relations_ in Lojban?
+
+Depending on your background you may find some of the following analogies useful.
+
+Large parts of English can be described as expressing relations. In that regard English (despite being often ambiguous and having complex grammar) can still be used to relay the basics of Lojban. Let's try to describe a portion of the English language using Lojban terms:
+
+> I love you.
+
+* "I love you" is a **bridi**.
+* "love" is its main "verb" otherwise called **selbri**.
+* "I" and "you" make up its set of roles in the relationship, such set is called **terbri**.
+
+In layment terms:
+* **bridi** is the relationship
+* **selbri** is the relation
+* **terbri** is a sequence of roles in the relationship
+
+In math you may find the following analogy useful:
+
+> It is true the adding 2 to 3 makes 5.
+
+> It is true that 5 = 2 + 3.
+
+* the whole assertion can be called _relationship_, **bridi**.
+* the word _adding_ represents the _relation_, **selbri**.
+* _5_, _2_, _3_ for the sequence of arguments, **terbri**.
+
+As for the part _It is true that_ it's the so called truth value of the relationship. It can be true, false, represent some request, command or represent other similar or combined notions.
+
 ### «**.i**» separates sentences
 
 The most precise way of uttering or writing sentences in Lojban would be placing a short word **.i** in the beginning of each of them:
@@ -1319,7 +1348,7 @@ le skami
 <td><i>Are you happy of using computers?</i>
 </td></tr>
 <tr>
-<td><b>do djica le nu mi citka le plise xu</b>
+<td><b>do djica le nu mi citka le xu plise</b>
 </td>
 <td><i>Do you want me to eat the <u>apple</u>?</i>
 </td></tr></tbody></table>
@@ -2686,12 +2715,35 @@ pe
 
 Notice that relative clauses are attached to nouns whereas **be** connects to the verb that is transformed into a noun afterwards.
 
-Actually, **le bangu pe mi** is a better translation of _my language_, since like in English, the two nouns are related to each other in a vague way.
+Compare
+> **le zdani be mi**
+> _My home, the home to me, where I live_
 
-However, you can say **le birka be mi** as _my arm_. Even if you saw off your arm, it'll still be yours. That's why **birka** has a place of the owner:
+and 
+
+> **le zdani pe mi**
+> _My home, the home to someone (not necessarily me) but the home that I'm somehow related to_
+
+zdani
+: ... is a home to ...
+
+If you are a landlord you may own a parcel of land that is e.g. a home to some rabbits. Then you can say:
+
+> **le zdani be le ractu be'o pe mi**
+> _My home to the rabbits_
+
+**be'o** shows that the noun attached with **be** ends.
+
+Some verbs have places of the owners:
+> **le birka be mi**
+> _my arm_
+
+Even if you saw off your arm, it'll still be yours. That's why **birka** has a place of the owner:
 
 birka
 : x1 is an arm of x2
+
+Indeed, the concept of _arm_ is inseparable from its owner hence they form a single relation.
 
 Notice that **be** attaches to the verb word. But **pe**, **ne**, **poi** and **noi** attach to nouns. For example,
 
@@ -2710,7 +2762,7 @@ It can also happen that we need to attach **be** to a noun and then attach **pe*
 > **le pu posydu'a be le pa cukta bei do be'o pe la paris cu stati**
 > _Who gave the book to you (and who is related to Paris) is smart._
 
-**be'o** shows that the nouns attached with **be** and with **bei** (if they are used) end, and thus **pe la paris** is attached to the whole noun **le pa pendo be do be'o** and **le pu posydu'a be le pa cukta bei do be'o**.
+Once again: **be'o** shows that the nouns attached with **be** and with **bei** (if they are used) end, and thus **pe la paris** is attached to the whole noun **le pa pendo be do be'o** and **le pu posydu'a be le pa cukta bei do be'o**.
 
 Compare it to:
 
@@ -4074,7 +4126,7 @@ You can put it after other question words:
 
 A relation like _Alice said "Michelle said “Hello” to me"_ can also be expressed in a rather more subtle way:
 
-> **la .alis. pu cusku zo'e pe le nu la .micel. pu rinsa le ninmu**
+> **la .alis. pu cusku le srana be le nu la .micel. pu rinsa le ninmu**
 > _Alice said something about Michelle greeting her before._
 > `Alice said something about the event of Michelle greeted her.`
 
@@ -4099,6 +4151,14 @@ Here are the examples of verbs related to talking when using reported speech:
 
 > **mi pu spuda le se retsku be le ninmu le ka spusku le se du'u mi klama le zdani**
 > _I replied to her question by saying in reply that I was going home._
+
+Notice that in reported speech you don't need to use the same words from quotes:
+
+> **ra cusku lu iu li'u**
+> _He said: "I love it!"_
+<!-- -->
+> **ra cusku le se du'u ra prami**
+> _He said that he loves it._
 
 Questions in reported speech:
 
@@ -4514,7 +4574,7 @@ Here is a bigger picture: emotional, urging and some other interjections in seri
 </td>
 <td><b>io</b><br/><small>"yoh" as in "<u>yo</u>gurt"</small><br/><i>respect</i>
 </td>
-<td><b>iu</b><br/><small>"yooh" as in "c<u>u</u>te, d<u>ew</u>"</small><br/><i>I love it</i>
+<td><b>iu</b><br/><small>"yooh" as in "c<u>u</u>te, d<u>ew</u>"</small><br/><i>I love it, I love them/you (whatever fits the context)</i>
 </td></tr>
 <tr>
 <td><b>ia cu'i</b><br/>&nbsp;
@@ -5268,8 +5328,8 @@ panci
 
 <!-- -->
 
-> **mi sumne le panci be le za'u flora**
-> _I smell the odor of flowers._
+> **mi sumne le panci be le za'u spati**
+> _I smell the odor of plants._
 
 <!-- -->
 
@@ -5365,7 +5425,7 @@ le solri
 simlu
 : x1 looks like x2 (property of x1)
 
-> **.i le pelxu flora cu se farna le solri**
+> **.i le pelxu xrula cu se farna le solri**
 > _Yellow flowers are oriented towards the Sun._
 
 se farna
@@ -5373,6 +5433,9 @@ se farna
 
 farna
 : x1 is the direction of x2
+
+xrula
+: x1 is a flower
 
 > **.i le pezli be le tricu cu crino**
 > _Leaves of trees are green._
@@ -9220,7 +9283,7 @@ The qualifier word **lu'o** placed before a noun converts it into a mass made of
 
 ### Sets and subsets
 
-Some infinitives may imply more than one **ce'u**:
+Some infinitives may imply more than one **ce'u** slot:
 
 > **le'i prenu cu simxu le ka prami**
 > **le'i prenu cu simxu le ka ce'u prami ce'u**
@@ -9268,6 +9331,18 @@ This allows us to convey even trickier ideas:
 > **le'i su'o citno cmima be le'i stati prenu cu simxu le ka prami**
 > _Some youngsters from those smart people love each other._
 > `Some young members of the set of smart people love each other.`
+
+<!-- 
+The three people are parents to a,b,c.
+Each of the three people is a parent to one of a,b,c.
+ro le ci prenu cu rirni pa cmima be mi ce do ce ra i je ro se go'i cu se go'i pa go'i
+
+Each of the three people are parents to at least one of a,b,c (so that e.g., a and c can share at least one parent) 
+ro le ci prenu cu rirni su'o cmima be mi ce do ce ra
+
+Each of the three parents loves at least one of a,b,c. Each of a,b,c loves only one parent each.
+ro le ci rirni cu prami su'o cmima be mi ce do ce ra i je ro se go'i cu go'i pa go'i
+ -->
 
 <!-- ## Second order logic
 

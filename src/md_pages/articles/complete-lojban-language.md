@@ -10,6 +10,7 @@ title: 📕 Unofficial ‘Complete Lojban Language’ book
     *   Live chat: [Telegram chat](https://t.me/joinchat/BLVsYz3hCF8mCAb6fzW1Rw) or [Discord chat](https://discord.gg/BVm4EYR)
     *   to <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), the maintainer of the UnCLL.
 
+Notice: the official publication of the LLG is placed [here](http://lojban.org/publications/cll/cll_v1.1_xhtml-no-chunks/).
 
 ## Releases
 

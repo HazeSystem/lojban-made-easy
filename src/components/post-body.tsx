@@ -10,7 +10,7 @@ const PostBody = ({ post }: Props) => {
 
   return (
     <>
-      <div className="mx-auto w-full md:w-3/5 bg-gray-100">
+      <div className="mx-auto w-full md:w-3/5 bg-gray-100 text-black">
       <PostHeader
         title={post.title}
         coverImage={post.coverImage}

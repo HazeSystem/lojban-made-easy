@@ -189,6 +189,10 @@ article .first_col table tr td:first-child {
   @apply align-top text-left px-3 py-4 border border-collapse border-gray-200;
 }
 
+html *:not(input) {
+  @apply text-black;
+}
+
 body {
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial,
     sans-serif;
