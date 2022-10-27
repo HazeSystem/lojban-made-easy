@@ -5348,7 +5348,7 @@ panci
 
 <!-- -->
 
-> **mi sumne le panci be le za'u flora**
+> **mi sumne le panci be le za'u xlura**
 > _I smell the odor of flowers._
 
 <!-- -->
@@ -5445,7 +5445,7 @@ le solri
 simlu
 : x1 looks like x2 (property of x1)
 
-> **.i le pelxu flora cu se farna le solri**
+> **.i le pelxu xrula cu se farna le solri**
 > _Yellow flowers are oriented towards the Sun._
 
 se farna
