@@ -5348,7 +5348,7 @@ panci
 
 <!-- -->
 
-> **mi sumne le panci be le za'u flora**
+> **mi sumne le panci be le za'u xlura**
 > _I smell the odor of flowers._
 
 <!-- -->
