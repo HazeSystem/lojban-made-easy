@@ -5965,14 +5965,14 @@ rupne'uru
 <!-- -->
 
 > **je'e**
-> **.i ku'i mi pu jbena le tcadu .i je ca ti mi se zdani le jarbu be la .paris.**
+> **.i ku'i mi pu jbena fo le tcadu .i je ca ti mi se zdani le jarbu be la .paris.**
 > **.i mi xabju ne'a le zarci**
 > _I see._
 > _But I was born in the city, and now I live in the suburbs of Paris._
 > _I live near a shop._
 
 stuzi
-: x1 is a place
+: x1 is an inherent/inalienable location of x2
 
 dinju
 : x1 is a building, house
@@ -5983,11 +5983,14 @@ zdani
 se zdani
 : x1 lives in x2, x1 inhabits x2
 
+jbena
+: x1 is born to x2 at time x3 and place x4
+
 tcadu
 : x1 is a city or town
 
 jarbu
-: x1 is a suburban are of city/town x2
+: x1 is a suburban area of city/town x2
 
 nurma
 : x1 is a rural area, x1 is in the country
