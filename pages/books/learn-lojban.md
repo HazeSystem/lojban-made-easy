@@ -6145,7 +6145,7 @@ However, **se mau** always compares the noun after it with the first place of th
 
 <!-- -->
 
-> **la betis cu se nelci la bob se mau la maris**
+> **la .betis. cu se nelci la .bob. se mau la .maris.**
 > _Betty is loved by Bob more than Mary. Bob likes Mary less._
 
 ### Comparisons: ‘_equal_’, ‘_the same_’
@@ -9409,7 +9409,7 @@ However, for curiosity I must mention the series of verbs that also serve the pu
 >**ro bu'a zo'u ga nai le'e mlatu cu bu'a gi la .dinas. bu'a**
 >>_For every possible relation or property: if cats have it then Dinah has it too._ (Thus we assume Dinah is a cat.)
 
-The reasoning behind these variable verbs is hidden in formal logic. Needless to say, they are rearely used in speech but here is one possible example:
+The reasoning behind these variable verbs is hidden in formal logic. Needless to say, they are rarely used in speech but here is one possible example:
 
 su'o bu'a zo'u ge ge da na bu'a gi su'o da su'o de zo'u ge da .e de bu'a gi da manci de gi ro da ro de zo'u da bu'a .ije da manci de .inaja de bu'a
 - fix the sentence -->
@@ -9429,7 +9429,7 @@ postoxorlo working with anaphora and outer quantifiers. -->
 
 Some people for connecting nouns instead of
 
-- **a**, **e**, **o**, **u**
+- **.a**, **.e**, **.o**, **.u**
 
 use
 
@@ -9437,7 +9437,7 @@ use
 
 That is instead of
 
->**mi e do nelci le plise**
+>**mi .e do nelci le plise**
 >_I like apples, and you like apples._
 
 they say
